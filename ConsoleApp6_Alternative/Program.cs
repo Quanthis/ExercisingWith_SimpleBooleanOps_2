@@ -12,8 +12,8 @@ namespace ConsoleApp6_Alternative
         {
             int x = 3, y = 10;
             bool wynik;
-            wynik = (x >= 2 | y++ >= 2);                    // |-alternatywa bezwarunkowa
-            Console.WriteLine(wynik);                       // ||-alternatywa warunkowa; w koniunkcji (App5) podobnie
+            wynik = (x >= 2 | y++ >= 2);                    // | - unconditional alternative
+            Console.WriteLine(wynik);                       // || - conditional alternative
             Console.WriteLine(x);
             Console.WriteLine(y);
             Console.ReadKey();
